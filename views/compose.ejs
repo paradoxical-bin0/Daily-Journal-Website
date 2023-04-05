@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+
+<form method="post" action="/compose">
+    <h1 style="font-family: 'Times New Roman', Times, serif">Compose</h1>
+    <h4 style="font-family: 'Times New Roman', Times, serif">Title</h4>
+    <input id="input1" type="text" name="blog_title" autocomplete="off">
+    <h4 style="font-family: 'Times New Roman', Times, serif">Post</h4>
+    <textarea id="input2" type="text" name="blog_body" autocomplete="off"></textarea><br><br><button id="publish_btn" type="submit" name="button">Publish</button>
+</form>
+
+<%- include("partials/footer") -%>
