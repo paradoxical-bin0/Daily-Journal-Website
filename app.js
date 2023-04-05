@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 //Connection with db
 // mongosh "mongodb+srv://blog.e8807ey.mongodb.net/blogDB" --apiVersion 1 --username shreyanshi
-const url = "mongodb+srv://shreyanshi:usaMIE15141305@blog.e8807ey.mongodb.net/blogDB";
+const url = "(hidden_url)";
 mongoose.connect(url);
 
 //Schema
